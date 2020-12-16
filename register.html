@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1>The Online Store</h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Registration</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cat">
+            <h1>Registeration</h1>
+        </div>
+        <div class="main">
+            <div class="form">
+                <p style="text-align: center; margin-bottom: 20px;">Please fill in this form to create an account.</p>
+                <form style="border:1px solid #ccc">
+                    <div class="container">
+                        <h1 style="text-align: center;">Login Information</h1>
+                        <hr>
+                        
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" id="uname" name="username" placeholder="Your username" requireds>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    </div>
+                    <div class="container">
+                        <h1 style="text-align: center;">Personal Information</h1>
+                        <hr>
+                        
+                        <label for="name"><b>Name</b></label>
+                        <input type="text" id="name" name="name" placeholder="Your name" requireds>
+
+                        <label for="city"><b>City</b></label>
+                        <select id="city" name="city">
+                            <option value="karachi">Karachi</option>
+                            <option value="lahor">Lahor</option>
+                            <option value="sukkur">Sukkur</option>
+                        </select>
+                        <br><br>
+                        <input type="radio" value="Male"> <b>Male</b>
+                        <input type="radio" value="female"> <b>Female</b><br><br>
+                    </div>
+                    <div class="container">
+                        <h1 style="text-align: center;">Shipping Information</h1>
+                        <hr>
+                        
+                        <label for="address"><b>Address</b></label>
+                        <input type="text" id="address" name="address" placeholder="Your address" requireds>
+
+                        <label for="city"><b>City</b></label>
+                        <select id="city" name="city">
+                            <option value="karachi">Karachi</option>
+                            <option value="lahor">Lahor</option>
+                            <option value="sukkur">Sukkur</option>
+                        </select>
+                        <br><br>
+                        
+                        <label for="zip"><b>Zip Code</b></label>
+                        <input type="text" name="zip" inputmode="numeric" pattern="^(?(00000(|-0000))|(\d{5}(|-\d{4})))#" placeholder="zip Code">
+                        
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                        </label>
+
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                        <input type="submit" value="Submit">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2021 Zahid Hussain</p>
+        </div>
+    </div>
+</body>
+
+</html>
